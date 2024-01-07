@@ -1,0 +1,44 @@
+/* Style for the wrapper to position the play button over the image */
+.youtube-wrapper {
+  position: relative;
+  display: inline-block; /* Adjust as needed, or use flex/other display if preferred */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the entire area */
+}
+
+/* Style for the image */
+.youtube-wrapper img {
+  display: block; /* Ensures there are no extra spaces around the image */
+  width: 100%; /* Adjust if you want to control the size of the image */
+  height: auto; /* Keeps the aspect ratio of the image */
+}
+
+/* Style for the play button when hovering over the image */
+.youtube-wrapper:hover .play {
+  background-color: rgba(0, 0, 0, 0.1); /* Darkens the button slightly */
+  cursor: pointer; /* Changes the cursor to a pointer */
+}
+
+.ytp-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+  text-align: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+.ytp-large-play-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 68px;
+  height: 48px;
+  margin-left: -34px;
+  margin-top: -24px;
+  -webkit-transition: opacity .25s cubic-bezier(0,0,.2,1);
+  transition: opacity .25s cubic-bezier(0,0,.2,1);
+  z-index: 63;
+}

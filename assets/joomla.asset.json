@@ -1,0 +1,27 @@
+{
+    "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+    "name": "CodehostedYoutubeLoader",
+    "version": "4.0.0",
+    "description": "Used to load assets for Codehosted's Youtube Loader Plugin ",
+    "license": "GPL-2.0-or-later",
+    "assets": [
+      {
+        "name": "plugin.codehosted.youtubeloader",
+        "description": "the javascript for the codehosted youtube loader plugin.",
+        "type": "script",
+        "uri": "plg_system_youtubeloader/codehosted_youtubeloader.js",
+        "attributes" : {
+          "defer": true
+        },
+        "dependencies": [
+          "core"
+        ]
+      },
+      {
+        "name": "plugin.codehosted.youtubeloader",
+        "description": "the css for the codehosted youtube loader plugin.",
+        "type": "style",
+        "uri": "plg_system_youtubeloader/codehosted_youtubeloader.css"
+      }
+    ]
+  }

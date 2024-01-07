@@ -1,0 +1,5 @@
+*.tar.gz
+.DS_STORE
+vendor
+node_modules
+coverage

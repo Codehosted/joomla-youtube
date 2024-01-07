@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="plugin" group="system" method="upgrade">
+    <name>System - Codehosted Youtube</name>
+    <author>Codehosted Cloud</author>
+    <version>1.0.0</version>
+    <description>Codehosted Inline Youtube Loader</description>
+    <files>
+        <filename plugin="codehostedsystemyoutube">codehostedsystemyoutube.php</filename>
+        <folder>language</folder>
+        <folder>assets</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_youtube.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_youtube.sys.ini</language>
+    </languages>
+     <media destination="plg_system_youtubeloader" folder="assets">
+        <filename>css/codehosted_youtubeloader.css</filename>
+        <filename>js/codehosted_youtubeloader.js</filename>
+        <filename>joomla.asset.json</filename>
+    </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">    
+            </fieldset>
+        </fields>
+    </config>
+</extension>
