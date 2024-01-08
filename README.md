@@ -22,6 +22,6 @@ After installation, the plugin will automatically replace all YouTube elements w
 For example, if you have a YouTube element in your article like this:
 
 ```html
-<youtube data-id="dQw4w9WgXcQ">
-<youtube video="dQw4w9WgXcQ">
+<youtube data-id="dQw4w9WgXcQ"/>
+<youtube video="dQw4w9WgXcQ"/>
 ```
