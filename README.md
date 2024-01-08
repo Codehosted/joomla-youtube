@@ -10,7 +10,7 @@ This is a system plugin for Joomla that replaces all instances of the YouTube el
 
 ## Installation
 
-1. Download the plugin zip file.
+1. Download by the plugin zip file by clicking the green "<> Clone" button in Github. Select "Download ZIP".
 2. Go to the Joomla administration panel.
 3. Navigate to Extensions -> Manage -> Install.
 4. Upload the downloaded zip file.
